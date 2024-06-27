@@ -9,10 +9,10 @@ header {
 
 header > img{
     display: block;
-    border-radius: 5px;
+    border-radius: 6px;
     margin: 15px auto;
     width: 600px;
-    border: 1px snow;
+    border: 2px snow;
 }
 
 nav {
@@ -56,3 +56,11 @@ margin: 20px;
 text-align: center;
 }
 
+section{
+    width: 88%;
+    margin: 1%;
+    background-image: linear-gradient(to bottom left, rgb(61, 113, 255),rgb(142, 172, 255));
+    border: 2px solid rgb(211, 244, 252);
+    border-radius: 5%;
+    padding: 2% 4% 2% ;
+}
