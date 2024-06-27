@@ -55,34 +55,4 @@ background-color: rgb(147, 199, 245);
 margin: 20px;
 text-align: center;
 }
-        body{
-            width: 100%;
-            background-color: rgb(147, 199, 245);
-        }
 
-    .imagem_cabecalho {
-            display: block;
-            border: 3px solid #000000;
-            border-radius: 5px;
-            margin: 10px auto;
-            width: 600px;
-           }
-
-    div.box {
-	       width: 100%;
-	       display: inline-block;
-        }
-        .row {
-            display: flex;
-            justify-content: space-around;
-        }
-    .coluna {
-        border: 3px solid #000000; 
-        border-radius: 5px;
-        width: 40%;
-    }
-      .coluna img{
-        display: block;
-        width: 100%;
-      }
-    
