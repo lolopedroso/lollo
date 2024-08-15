@@ -56,6 +56,33 @@ margin: 20px;
 text-align: center;
 }
 
+.mlp_imagem{
+    width: 100%;
+    min-width: 100px;
+}
+
+.lista_de_produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.lista_produtos_itens{
+    width: 25%;
+    margin: 1%;
+    box-shadow: 5px 3px 7px;
+}
+
+.lista_produtos_itens{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.lista_produtos_itens:hover{
+    box-shadow: 3px 2px 2px;
+}
+
 section{
     width: 88%;
     margin: 1%;
@@ -63,4 +90,18 @@ section{
     border: 2px solid rgb(211, 244, 252);
     border-radius: 5%;
     padding: 2% 4% 2% ;
+}
+
+@media screen and (max-width: 900px) {
+    
+}
+
+@media screen and (max-width: 500px) {
+    nav{
+        background-color: rgb(100, 100, 255);
+    }
+
+    nav > ul {
+        flex-direction: column;
+    }
 }
