@@ -105,3 +105,21 @@ section{
         flex-direction: column;
     }
 }
+
+.castelos {
+    width: 40%;
+    margin: 1%;
+    box-shadow: 5px 3px 7px;
+}
+
+.castel {
+    width: 41%;
+    margin: 1%;
+    box-shadow: 5px 3px 7px;
+}
+
+.castle {
+    width: 60%;
+    margin: 1%;
+    box-shadow: 5px 3px 7px;
+}
